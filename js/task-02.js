@@ -29,9 +29,5 @@ const images = [
 ];
 
 let galleryList = document.querySelector('.gallery');
-images.forEach(image => {
-  galleryList.insertAdjacentHTML(
-    'beforeend',
-    `<li class='gallery-item'><img class='gallery-item-img' src=${image.url} alt='${image.alt}'></li>`
-  )
-});
+let markup = images.map((image) => `<li class='gallery-item'><img class='gallery-item-img' src=${image.url} alt='${image.alt}'></li>`).join('');
+galleryList.insertAdjacentHTML("beforeend", markup);
