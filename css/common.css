@@ -114,3 +114,66 @@ h1 {
   line-height: 1.33;
   letter-spacing: 0.04em;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  padding: 24px;
+  align-items: baseline;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.login-form label:first-child {
+  margin-bottom: 8px;
+}
+
+.login-form label input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+
+.login-form label input:hover {
+  border: 1px solid #000;
+}
+
+.login-form label input:focus-visible {
+  border: 1px solid #808080;
+  outline: none;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.login-form button:hover {
+  background: #6C8CFF;
+}
