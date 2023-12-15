@@ -228,3 +228,32 @@ h1 {
   width: fit-content;
   height: fit-content;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#controls input {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  height: 40px;
+  width: 150px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+
+#controls input:focus-visible {
+  border: 1px solid #808080;
+  outline: none;
+}
+
+#controls input:hover {
+  border: 1px solid #000;
+}
