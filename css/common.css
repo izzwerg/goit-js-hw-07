@@ -227,6 +227,7 @@ h1 {
   margin-bottom: 16px;
   width: fit-content;
   height: fit-content;
+  min-width: 486px;
 }
 
 input::-webkit-outer-spin-button,
@@ -256,4 +257,30 @@ input::-webkit-inner-spin-button {
 
 #controls input:hover {
   border: 1px solid #000;
+}
+
+#controls button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 120px;
+  height: 40px;
+}
+
+#controls button:hover {
+  background: #6c8cff;
+}
+
+#controls button:last-child {
+  background: #FF4E4E;
+}
+
+#controls button:last-child:hover {
+  background: #FF7070;
 }
