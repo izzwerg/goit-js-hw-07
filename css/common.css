@@ -215,3 +215,16 @@ h1 {
 .change-color:hover {
   background: #6c8cff;
 }
+
+#controls,
+#boxes {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+  width: fit-content;
+  height: fit-content;
+}
